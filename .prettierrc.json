@@ -1,0 +1,8 @@
+{
+    "experimentalTernaries": true,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSameLine": true,
+    "arrowParens": "always"
+}
