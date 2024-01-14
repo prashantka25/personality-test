@@ -26,7 +26,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 25px;
     width: 90%;
     justify-content: center;
 }
@@ -104,6 +104,12 @@ button[type="submit"]:hover {
     background-color: rgb(23, 46, 45);
     top: 75vh;
     left: 10vw;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+    text-align: left;
 }
 
 @media screen and (min-width:445px) and (max-width:602px) {
