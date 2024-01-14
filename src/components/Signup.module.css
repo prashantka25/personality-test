@@ -1,0 +1,121 @@
+body {
+    position: relative;
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.main {
+    position: absolute;
+    left: 10%;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    width: 60%;
+    padding: 5%;
+    padding-top: 0%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 90%;
+    justify-content: center;
+}
+
+h2 {
+    opacity: 0.5;
+}
+
+input {
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 1px;
+    border-color: grey;
+}
+
+button[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.circle {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.cl1 {
+    background-color: rgb(71, 71, 42);
+    top: 5vh;
+    left: 3vw;
+}
+
+.cl2 {
+    background-color: rgb(225, 15, 15);
+    top: 30vh;
+    left: 6vw;
+}
+
+.cl3 {
+    background-color: rgb(4, 8, 21);
+    top: 55vh;
+    left: 20vw;
+}
+
+.cl4 {
+    background-color: rgb(27, 63, 192);
+    top: 70vh;
+    left: 50vw;
+}
+
+.cl5 {
+    background-color: rgb(71, 71, 42);
+    top: 100vh;
+    left: 10vw;
+}
+
+.cl6 {
+    background-color: rgb(71, 42, 58);
+    top: 50vh;
+    right: 10vw;
+}
+
+.cl7 {
+    background-color: rgb(23, 46, 45);
+    top: 75vh;
+    left: 10vw;
+}
+
+@media screen and (min-width:445px) and (max-width:602px) {
+    .main {
+        width: 45%;
+        left: 18%;
+    }
+}
+
+@media screen and (min-width:602px) {
+    .main {
+        width: 35%;
+        left: 22%;
+    }
+}
